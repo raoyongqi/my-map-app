@@ -1,14 +1,14 @@
-// src/App.js
+// src/App.js or src/App.jsx
 import React from 'react';
-import './App.css';
-import Map from './Map';
+import MapComponent from './Map';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Map />
+    <div>
+      <h1>GeoJSON Map</h1>
+      <MapComponent />
     </div>
   );
-}
+};
 
 export default App;
